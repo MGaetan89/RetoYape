@@ -19,8 +19,6 @@ object Deps {
         const val navigationFragment = "androidx.navigation:navigation-fragment-ktx:${Versions.Libs.navigationVersion}"
         const val navigationUI = "androidx.navigation:navigation-ui-ktx:${Versions.Libs.navigationVersion}"
 
-        const val multidex = "androidx.multidex:multidex:${Versions.Libs.multidexVersion}"
-
         const val work = "androidx.work:work-runtime-ktx:${Versions.Libs.workVersion}"
         const val legacySupportV4 = "androidx.legacy:legacy-support-v4:${Versions.Libs.legacySupportV4}"
         const val recyclerview = "androidx.recyclerview:recyclerview:${Versions.Libs.recyclerView}"
@@ -44,7 +42,6 @@ object Deps {
         const val runner = "com.android.support.test:runner:${Versions.Test.runnerVersion}"
         const val koinTest = "org.koin:koin-test:${Versions.Test.koinTestVersion}"
         const val roboelectric = "org.robolectric:robolectric:${Versions.Test.roboelectricVersion}"
-        const val roboelectricMulidex = "org.robolectric:shadows-multidex:${Versions.Test.roboelectricVersion}"
         const val androidTestCore = "androidx.test:core:${Versions.Test.androidTestCoreVersion}"
         const val androidTestExt = "androidx.test.ext:junit:${Versions.Test.androidTestExtVersion}"
         const val androidTestRunner = "androidx.test:runner:${Versions.Test.androidTestCoreVersion}"

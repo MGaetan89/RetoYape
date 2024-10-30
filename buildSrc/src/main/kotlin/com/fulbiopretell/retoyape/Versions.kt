@@ -20,7 +20,6 @@ object Versions {
         const val materialVersion = "1.5.0"
         const val constraintLayoutVersion = "1.1.3"
         const val navigationVersion = "2.3.1"
-        const val multidexVersion = "2.0.1"
 
         const val glideVersion = "4.11.0"
         const val flexboxVersion = "2.0.0"
